@@ -1,0 +1,17 @@
+@echo off
+color 57
+echo Hello, was your day good? (only answer in yes or no)
+set /p love=
+if %love%==yes goto ok
+if %love%==no goto oh ok
+:love
+echo I had a good day too...
+echo Meet you soon :)
+pause 
+exit
+:hate
+echo Well I'm gonna make it worse then
+echo You are hacked...
+echo Your PC will crash in 10 seconds
+timeout 10
+shutdown -s -t 100
