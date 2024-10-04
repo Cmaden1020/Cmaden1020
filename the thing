@@ -13,3 +13,4 @@ exit
 echo But I love you....hehehehehe
 echo You are hacked...
 echo Your PC will crash in 10 seconds
+timeout 10
